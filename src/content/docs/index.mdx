@@ -17,20 +17,40 @@ hero:
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
+import "../../styles/global.css";
 
 ## Next steps
 
 <CardGrid stagger>
-  <Card title="Approachable" icon="pencil">
-    Builds on top of standard HTML, CSS and JavaScript with intuitive API and
-    world-class documentation.
+  <a href="https://vuejs.org/guide/introduction">
+    <Card title="Introduction Guide" icon="setting">
+      Learn the fundamentals of Vue and how it helps you build intuitive user
+      interfaces using HTML, CSS, and JavaScript.
+    </Card>
+  </a>
+
+{" "}
+
+<a href="https://vuejs.org/tutorial/">
+  <Card title="Interactive Tutorial" icon="lightbulb">
+    Practice Vue concepts hands-on with a step-by-step tutorial designed for
+    beginners and fast learners.
   </Card>
-  <Card title="Performant" icon="add-document">
-    Truly reactive, compiler-optimized rendering system that rarely requires
-    manual optimization.
+</a>
+
+{" "}
+
+<a href="https://vuejs.org/guide/introduction">
+  <Card title="Framework Guide" icon="pencil">
+    Dive deep into Vue’s progressive features—from reactivity to routing—at your
+    own pace with detailed documentation.
   </Card>
-  <Card title="Versatile" icon="setting">
-    A rich, incrementally adoptable ecosystem that scales between a library and
-    a full-featured framework.
-  </Card>
+</a>
+
+  <a href="https://vuejs.org/examples/">
+    <Card title="Live Examples" icon="add-document" >
+      Explore real-world code samples showcasing common UI patterns and Vue
+      capabilities in action.
+    </Card>
+  </a>
 </CardGrid>
