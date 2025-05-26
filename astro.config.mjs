@@ -11,11 +11,35 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Getting Started',
-					autogenerate: { directory: 'getting started' },
-					// items: [
-					// 	// Each item here is one entry in the navigation menu.
-					// 	{ label: 'Example Guide', slug: 'guides/example' },
-					// ],
+					autogenerate: { directory: 'gettingstarted' },
+				},
+				{
+					label: 'Essentials',
+					autogenerate: { directory: 'essentials' },
+				},
+				{
+					label: 'Built In Components',
+					autogenerate: { directory: 'builtincomponents' },
+				},
+				{
+					label: 'Components in depth',
+					autogenerate: { directory: 'componentsindepth' },
+				},
+				{
+					label: 'Reusability',
+					autogenerate: { directory: 'reusability' },
+				},
+				{
+					label: 'Scaling up',
+					autogenerate: { directory: 'scalingup' },
+				},
+				{
+					label: 'Best Practices',
+					autogenerate: { directory: 'bestpractices' },
+				},
+				{
+					label: 'Typescript',
+					autogenerate: { directory: 'typescript' },
 				},
 				{
 					label: 'Guides',

@@ -7,13 +7,13 @@ hero:
   image:
     file: ../../assets/houston.webp
   actions:
+    - text: Get Started with Vue.js
+      link: /gettingstarted/introduction/
+      icon: external
+      variant: minimal
     - text: Check out the Migration Guide
       link: https://v3-migration.vuejs.org/
       icon: right-arrow
-    - text: Get Started with Vue.js
-      link: https://vuejs.org/guide/introduction
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
@@ -22,7 +22,7 @@ import "../../styles/global.css";
 ## Next steps
 
 <CardGrid stagger>
-  <a href="https://vuejs.org/guide/introduction">
+  <a href="/gettingstarted/introduction/">
     <Card title="Introduction Guide" icon="setting">
       Learn the fundamentals of Vue and how it helps you build intuitive user
       interfaces using HTML, CSS, and JavaScript.
@@ -32,7 +32,7 @@ import "../../styles/global.css";
 {" "}
 
 <a href="https://vuejs.org/tutorial/">
-  <Card title="Interactive Tutorial" icon="pencil">
+  <Card title="Interactive Tutorial" icon="star">
     Practice Vue concepts hands-on with a step-by-step tutorial designed for
     beginners and fast learners.
   </Card>
@@ -40,7 +40,7 @@ import "../../styles/global.css";
 
 {" "}
 
-<a href="https://vuejs.org/guide/introduction">
+<a href="/gettingstarted/quickstart/">
   <Card title="Framework Guide" icon="pencil">
     Dive deep into Vue’s progressive features—from reactivity to routing—at your
     own pace with detailed documentation.
@@ -54,4 +54,3 @@ import "../../styles/global.css";
     </Card>
   </a>
 </CardGrid>
-<a href="/about/">click</a>
