@@ -15,7 +15,13 @@ export default defineConfig({
 				},
 				{
 					label: 'Essentials',
-					autogenerate: { directory: 'essentials' },
+					items: [
+						{ label: 'Creating an Application', slug: 'essentials/application' },
+						{ label: 'Template Syntax', slug: 'essentials/templatesyntax' },
+						{ label: 'Reactivity Fundamentals', slug: 'essentials/reactivity' },
+						{ label: 'Computed Properties', slug: 'essentials/computedproperties' },
+						{ label: 'Class and Style binding', slug: 'essentials/classandstyle' },
+					],
 				},
 				{
 					label: 'Built In Components',
