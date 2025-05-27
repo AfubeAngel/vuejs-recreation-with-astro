@@ -25,11 +25,23 @@ export default defineConfig({
 				},
 				{
 					label: 'Built In Components',
-					autogenerate: { directory: 'builtincomponents' },
+					items: [
+						{ label: 'Transition', slug: 'builtincomponents/transition' },
+						{ label: 'Transition Group', slug: 'builtincomponents/transition-group' },
+						{ label: 'KeepAlive', slug: 'builtincomponents/keep-alive' },
+						{ label: 'Teleport', slug: 'builtincomponents/teleport' },
+						{ label: 'Suspense', slug: 'builtincomponents/suspense' },
+					],
 				},
 				{
-					label: 'Components in depth',
-					autogenerate: { directory: 'componentsindepth' },
+					label: 'Components In-depth',
+					items: [
+						{ label: 'Registration', slug: 'componentsindepth/registration' },
+						{ label: 'Props', slug: 'componentsindepth/props' },
+						{ label: 'Events', slug: 'componentsindepth/events' },
+						{ label: 'Component v-model', slug: 'componentsindepth/v-model' },
+						{ label: 'Fallthrough Attributes', slug: 'componentsindepth/attrs' },
+					],
 				},
 				{
 					label: 'Reusability',
