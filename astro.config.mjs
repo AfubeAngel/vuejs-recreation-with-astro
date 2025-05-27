@@ -45,7 +45,11 @@ export default defineConfig({
 				},
 				{
 					label: 'Reusability',
-					autogenerate: { directory: 'reusability' },
+					items: [
+						{ label: 'Composables', slug: 'reusability/composables' },
+						{ label: 'Custom Directives', slug: 'reusability/custom-directives' },
+						{ label: 'Plugins', slug: 'reusability/plugins' },
+					],
 				},
 				{
 					label: 'Scaling up',
