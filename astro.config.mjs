@@ -52,28 +52,36 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Scaling up',
-					autogenerate: { directory: 'scalingup' },
-				},
-				{
-					label: 'Best Practices',
-					autogenerate: { directory: 'bestpractices' },
-				},
-				{
-					label: 'Typescript',
-					autogenerate: { directory: 'typescript' },
-				},
-				{
-					label: 'Guides',
+					label: 'Scaling Up',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Single-File Components', slug: 'scalingup/sfc' },
+						{ label: 'Tooling', slug: 'scalingup/tooling' },
+						{ label: 'Routing', slug: 'scalingup/routing' },
+						{ label: 'State Management', slug: 'scalingup/state-management' },
+						{ label: 'Testing', slug: 'scalingup/testing' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Best Practices',
+					items: [
+						{ label: 'Production Deployment', slug: 'bestpractices/production-deployment' },
+						{ label: 'Performance', slug: 'bestpractices/performance' },
+						{ label: 'Accessibility', slug: 'bestpractices/accessibility' },
+						{ label: 'Security', slug: 'bestpractices/security' },
+					],
 				},
+				{
+					label: 'Typescript',
+					items: [
+						{ label: 'Overview', slug: 'typescript/overview' },
+						{ label: 'TS with Composition API', slug: 'typescript/composition-api' },
+						{ label: 'TS with Option API', slug: 'typescript/options-api' },
+					],
+				},
+				// {
+				// 	label: 'Reference',
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],
