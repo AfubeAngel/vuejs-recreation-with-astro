@@ -2,3 +2,22 @@ a {
     text-decoration: none  !important;
     color: inherit;
 }
+
+.sl-link-button:where(.astro-xwgiixxa).primary {
+    background: #42d392 !important;
+    border-color: #42d392 !important;
+    color: var(--sl-color-black);
+}
+
+.card:where(.astro-v5tidmuc) .icon:where(.astro-v5tidmuc) {
+    border: 1px solid #42d392;
+    background-color: #42d392;
+    padding: 0.2em;
+    border-radius: 0.25rem;
+}
+
+:where(.astro-3ii7xxms)[aria-current=page], :where(.astro-3ii7xxms)[aria-current=page]:hover, :where(.astro-3ii7xxms)[aria-current=page]:focus {
+    font-weight: 600;
+    color: #42d392 !important;
+    background-color: #42d392 !important;
+}
